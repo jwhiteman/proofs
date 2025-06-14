@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\begin{document}
+
+\textbf{Conjecture.} For any integer \( n \) that has 5 as the last digit, \( n^2 \)
+will have 25 as the last two digits.
+
+\medskip
+
+\textbf{Proof.} Let \( n \) be an integer with 5 as the last digit.
+
+Then \( n = 10j + 5 \) for some integer \( j \).
+
+Therefore:
+\begin{align*}
+n^2 &= (10j + 5)(10j + 5) \\
+    &= 100j^2 + 100j + 25 \\
+    &= 100j(j + 1) + 25
+\end{align*}
+
+Let \( \ell = j(j + 1) \). Then we have:
+\[
+n^2 = 100\ell + 25
+\]
+
+which is to say:
+\[
+n^2 \equiv 25 \pmod{100}
+\]
+
+Since congruence mod 100 preserves the last two decimal digits, \( n^2 \) ends in 25.
+
+\hfill $\square$
+
+\end{document}
