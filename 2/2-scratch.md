@@ -20,6 +20,11 @@ Then n^2 = (5 + 10j)^2 = 25(1 + 2j)^2
 
 2j + 1 is the definition of an odd number. The square of an odd number is always odd.
 
+case 1: j is 0, then n^2 is 25
+case 2: j is 1 or greater, then you have 25 times some integer >= 9.
+
+Because the number either 0 or odd and greater or equal to 9, n^2 must end in 25.
+
 ## Proof attempt 3:
 Let n be an integer with 5 as the last digit.
 
@@ -35,4 +40,4 @@ then we have n^2 = 100l + 25
 
 which is to say that n^2 ≡ 25 (mod 100)
 
-Since congruence mod 100 preserves the last two decimal digits, we conclude that n2n2 ends in 25.
+Since congruence mod 100 preserves the last two decimal digits, we conclude that n^2 ends in 25.
