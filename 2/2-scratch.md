@@ -40,4 +40,4 @@ then we have n^2 = 100l + 25
 
 which is to say that n^2 ≡ 25 (mod 100)
 
-Since congruence mod 100 preserves the last two decimal digits, we conclude that n^2 ends in 25.
+Since congruence mod 100 preserves the last two decimal digits, n^2 ends in 25.
